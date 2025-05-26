@@ -1,0 +1,37 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Martivation</title>
+
+  <!-- Import Inter font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{% static 'blog/css/styles.css' %}">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <div class="nav-bar">
+    <div class="brand">Martivation</div>
+    <div class="nav-links">
+      <a href="{% url 'login' %}">Sign In</a>
+      <a href="#">About</a>
+    </div>
+  </div>
+
+  <!-- Hero Section -->
+  <!-- Hero Section -->
+<div class="hero">
+  <h1>We Share <span class="green">Best</span></h1>
+  <h1><span class="green">Experiences</span> Online</h1>
+
+  <!-- Wrap the button in a div for spacing -->
+  <div class="hero-btn-wrapper">
+    <a href="#" class="btn-white">GET STARTED</a>
+  </div>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+*.env
+
+# Django
+db.sqlite3
+*/migrations/
+!*/migrations/__init__.py
+
+# VS Code
+.vscode/
+.DS_Store
